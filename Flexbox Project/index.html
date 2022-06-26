@@ -4,96 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Turismos</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap">
 </head>
 <body>
-    <header>
-        <h1>FlexTurismos</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
+    <header class="topo">
+        <h1 class="ftour-topo">FlexTurismos</h1>
+        <ul class= ul-topo>
+            <li class="li-topo"><a href="#" target="_blank">Quem Somos</a></li>
+            <li class="li-topo"><a href="#" target="_blank">Serviços</a></li>
+            <li class="li-topo"><a href="#" target="_blank">Planos</a></li>
         </ul>
     </header>
 
-    <div>
-        <div>
-            <h1>Flex <br>Turismos</h1>
-            <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
+    <div class="flex-container1">
+        <div class="into">
+            <h1 class="ftour-1">Flex <br>Turismos</h1>
+            <p class="p-1">O melhor serviço para você!</p>
+            <a class="saiba-mais-bottom" href="#saiba-mais" target="_blank">Saiba Mais!</a>
         </div>
 
         <div>
-            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
+            <img src="./images/0-main.png" alt="banner de apresentação" class="img-1">
+        </div>
+    </div>
+
+    <div class="flex-container2">
+        <div>
+            <img src="./images/1-quem-somos.png" alt="balcão de atendimento" class="img-2">
+        </div>
+
+        <div class="quem-somos">
+            <h2 class="h2-quem-somos">|Quem somos</h2>
+            <p class="p-quem-somos">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <p class="p-quem-somos">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
         </div>
     </div>
 
     <div>
-        <div>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
-        </div>
-
-        <div>
-            <h2>Quem somos</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-        </div>
+        <h2 class="h2-servicos">Serviços</h2>
     </div>
 
-    <div>
-        <div>
-            <h2>Serviços</h2>
-        </div>
-
-        <div>
-            <div>
-                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
-                <p>Hospedagens</p>
-                <a href="#">Comprar Agora</a>
+    <div class="servicos">
+        <div class="flex-container3">
+            <div class="pacotes-viagens">
+               <div><img src="./images/icon-1.png" alt="pacote de viagens" class="img-servicos"></div>
+               <p class="discri-servicos">Pacotes de viagens</p>
+               <a class="comprar-agora-bottom" href="#" target="_blank">Comprar Agora</a>
             </div>
 
-            <div>
-               <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
-               <p>Pacotes de viagens</p>
-               <a href="#">Comprar Agora</a>
+            <div class="hospedagem">
+                <div><img src="./images/icon-2.png" alt="hospedagens" class="img-servicos"></div>
+                <p class="discri-servicos">Hospedagens</p>
+                <a class="comprar-agora-bottom" href="#" target="_blank">Comprar Agora</a>
             </div>
 
-            <div>
-                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
-                <p>Roteiros personalizados</p>
-                <a href="#">Comprar Agora</a>
+            <div class="roteiros">
+                <div><img src="./images/icon-3.png" alt="roteiros personalizados" class="img-servicos"></div>
+                <p class="discri-servicos">Roteiros personalizados</p>
+                <a class="comprar-agora-bottom" href="#" target="_blank">Comprar Agora</a>
             </div>
 
         </div>
     </div>
 
     <div>
+        <h2 class="h2-planos">Planos</h2>
+    </div>
 
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
+    <div class="planos">
+
+        <div class="plano1">
+            <h3 class="h3-plano">Plano 1</h3>
+            <ul class="lista1">
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
                 <li>Guia turístico</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="saiba-mais-bottom" href="#" target="_blank">Saiba Mais!</a>
         </div>
 
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
+        <div class="plano2">
+            <h3 class="h3-plano">Plano 2</h3>
+            <ul class="lista2">
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
                 <li>Guia turístico</li>
                 <li>Roteiro de trilhas</li>
                 <li>Serviço personalizado</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="saiba-mais-bottom" href="#" target="_blank">Saiba Mais!</a>
         </div>
 
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
+        <div class="plano3">
+            <h3 class="h3-plano">Plano 3</h3>
+            <ul class="lista3">
                 <li>Suporte 24h</li>
                 <li>Serviços de quarto</li>
                 <li>Guia turístico</li>
@@ -101,13 +108,13 @@
                 <li>Serviço personalizado</li>
                 <li>Área Vip</li>
             </ul>
-            <a href="#">Saiba Mais!</a>
+            <a class="saiba-mais-bottom" href="#" target="_blank">Saiba Mais!</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Seu nome aqui dev</p>
+        <p class="p-7">&copy; 2021 CSS Flexbox</p>
+        <p class="p-8">Desenvolvido por: | R3 Solutions |</p>
     </footer>
 </body>
 </html>

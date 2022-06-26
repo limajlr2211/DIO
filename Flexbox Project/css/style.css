@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white
+}
+
+.topo{
+    list-style-type: none;
+    display: flex;
+    max-width: auto;
+    background-color: rgb(18, 42, 87, 1);
+    padding: 30px 0px 30px 0px;
+    
+}
+
+.ftour-topo{
+    padding-left: 320px;  
+    width: 250px;
+    max-width: auto;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+
+.ul-topo{
+    padding-left: 680px;
+    align-items: center;
+    display: flex;
+    list-style-type: none;    
+}
+
+.li-topo{
+    font-size: 18px;
+    margin: 10px;
+    width: auto;
+}
+
+.flex-container1{
+    display: flex;
+    margin: 80px;
+    max-width: auto;
+}
+
+.into{    
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 320px;
+    height: 260px;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.ftour-1{
+    color: rgb(18, 42, 87, 1);
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 30px;
+    }
+
+.p-1{
+    font-weight: bold;
+    color: rgb(18, 42, 87, 1);
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.saiba-mais-bottom{
+    font-size: 24px;
+    text-decoration: none;    
+    background-color: rgb(18, 42, 87, 1);
+    color: white;
+    width: 220px;
+    height: 52px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-weight: bold;
+}
+
+.img-1{
+    padding-left: 360px;
+    height: 400px;
+    max-width: 100%;
+}
+
+.flex-container2{
+    display: flex;
+    max-width: auto;
+    margin-bottom: 80px;    
+}
+
+.quem-somos{
+    padding-left: 250px;
+    padding-top: 90px;
+    width: 600px;
+    height: 300px;
+    color: rgb(18, 42, 87, 1);
+}
+
+.h2-quem-somos{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+
+.p-quem-somos{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.img-2{
+    padding-left: 350px;
+    height: 350px;
+    max-width: 100%;    
+}
+
+.h2-servicos{
+    color: white;
+    background-color: rgb(18, 42, 87, 1);
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 450px;
+    padding-top: 80px;  
+}
+
+.servicos{
+    display: flex;
+    max-width: auto;
+    max-height: 560px;
+    height: 560px;
+    background-color: rgb(18, 42, 87, 1);    
+    padding-left: 430px;
+}
+
+.flex-container3{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
+
+.pacotes-viagens{
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 250px;
+}
+
+.hospedagem{
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.roteiros{
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-servicos{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.discri-servicos{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.comprar-agora-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(18, 42, 87, 1);
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 225px;
+    height: 50px;
+}
+
+.h2-planos{
+    color: rgb(18, 42, 87, 1);
+    font-size: 48px;
+    font-weight: bold;    
+    padding-left: 430px;
+    padding-top: 80px;
+}
+
+.planos{
+    display: flex;
+    max-width: auto;
+    max-height: 560px;
+    height: 560px;
+    max-height: 560px;
+    padding-left: 430px;
+    align-items: flex-end;
+    margin-bottom: 200px;
+}
+
+.plano1{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    border: 7px solid rgb(18, 42, 87, 1);
+    width: 300px;
+    height: 370px;
+    max-height: 370px;
+    justify-content: space-around;
+}
+
+.plano2{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 7px solid rgb(18, 42, 87, 1);
+    align-items: center;
+    width: 300px;
+    height: 460px;
+    max-height: 460px;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.plano3{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 7px solid rgb(18, 42, 87, 1);
+    align-items: center;
+    width: 300px;
+    height: 560px;
+    max-height: 560px;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.h3-plano{
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.h3-plano:after{
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid rgb(18, 42, 87, 1);
+    width: 130px;
+    left:0;
+    bottom:0
+}
+
+.lista1, .lista2, .lista3{
+    list-style-type:square;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.plano3 .saiba-mais-bottom{
+    margin-bottom: 30px;
+}
+
+.plano1 .saiba-mais-bottom{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    height: 110px;
+    background-color: rgb(18, 42, 87, 1);
+    align-items: center;    
+}
+
+.p-7{
+    color: white;
+    font-size: 18px;
+    padding-left: 200px;
+}
+
+.p-8{
+    color: white;
+    font-size: 18px;
+    padding-left: 1000px;
+}
