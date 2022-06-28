@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(250,250,250);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.insta-wrapper{
+    display: flex;   
+    justify-content: center;    
+    margin-top: 80px;    
+
+}
+.login-conta{
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    margin-left: 35px;
+    margin-top: 13px;
+    width: 350px;
+    height: 395px; 
+
+}
+.insta-logo{
+    padding-top: 45px;
+    padding-bottom: 32px;
+
+} 
+#insta-user{
+    outline: 0;
+    height: 34px;
+    width: 266px;
+    margin-bottom: 6px;
+    border-radius: 5%;
+    font-size: 12px;    
+    background-color: rgb(250,250,250);
+    border: 1px solid rgb(219,219,219);
+    
+}
+#insta-password{
+    outline: 0;
+    height: 34px;
+    width: 266px;
+    margin-bottom: 14px;
+    border-radius: 5%;
+    font-size: 12px;    
+    background-color: rgb(250,250,250);
+    border: 1px solid rgb(219,219,219);
+    
+}
+#insta-user::placeholder, #insta-password::placeholder{
+    color: rgb(142,142,157);
+
+}
+.insta-bt{
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    width: 266px;
+    margin-bottom: 8px;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(0,149,246);
+    border: 1px solid rgb(0,149,246);
+
+}
+.insta-bt:disabled{
+    background-color: rgb(178,223,252);
+    border: 1px solid rgb(178,223,252);
+}
+.divisoria{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(142,142,157);
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    display: inline-block;    
+
+}
+.divisoria::before,
+.divisoria::after {
+    content: "";
+    position: absolute;  
+    width: 106px;
+    height: 1px;
+    top: 7px;
+    left: 37px;
+    background-color: rgb(142,142,157)
+
+}
+.divisoria::after {
+    left: initial;
+    right: 37px;
+
+}
+.fb-login{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    text-decoration: none;
+
+}
+.fb-entrar{
+    padding-left: 10px;
+    color: rgb(56,81,133);
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.fb-logo{
+    height: 16px;
+    width: 16px;
+    padding-top: 12px;
+
+}
+.fb-forgot{
+    font-size: 12px;
+    color: rgb(23,69,124);
+    text-decoration: none;
+
+}
+.insta-cadastro{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(219,219,219);
+    width: 350px;
+    height: 60px;
+    margin-left: 35px;
+    font-size: 14px;    
+    justify-content: center;
+    align-items: center;
+
+} 
+.link1{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0,149,247);
+
+}
+.insta-store-texto{
+    padding-left: 140px;
+    font-size: 14px;
+
+}
+.insta-store-logos{
+    padding-left: 66px;
+    display: flex;
+
+}
+.apple-logo{
+    width: 135px;
+    height: 38px;
+    padding-right: 8px;
+
+}
+.google-logo{
+    width: 135px;
+    height: 38px;
+
+}
+.rodape1{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9, .a10, .a11, .a12, .a13{
+    font-size: 12px;
+    color: rgb(169,171,169);
+    padding-left: 20px;
+    text-decoration: none;
+}
+.rodape2{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 12px;
+    color: rgb(169,171,169);
+}
+.p1{
+    padding-right: 35px;
+}

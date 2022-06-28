@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Entrar · Instagram</title>
+    <link rel="shortcut icon" href="./instagram.png">
+
+</head>
+<body>
+    <div class="insta-wrapper">
+
+        <div class="imagem-phone">
+            <img src="./image/phone.png" class="instagram-celular" alt="instagram celular">
+
+        </div>
+
+        <div class="itens">
+
+            <div class="login-conta">
+
+                <div class="insta-logo">
+                    <img src="./image/logo-instagram.png" alt="Logo Instagram">
+                </div>    
+
+                <form action="">                       
+                    <input type="text" id="insta-user" placeholder="Telefone, nome de usuário ou email">                                      
+                    <input type="password" id="insta-password" placeholder="Senha"><br>                        
+                    <button type="submit" class="insta-bt" disabled="disabled" onclick="confirmaLogin()">Entrar</button>
+                </form>
+                <div>
+                    <p class="divisoria">OU</p>
+                </div>
+                <div>
+                    <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank" class="fb-login">
+                        <img class="fb-logo" src="./image/fb-logo.png" alt="Entrar com o FB">
+                        <p class="fb-entrar">Entrar com o Facebook</p>
+                    </a>                 
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/accounts/password/reset/" class="fb-forgot" target="_blank">Esqueceu a senha?</a>
+                </div>     
+            </div>
+    
+            <div class="insta-cadastro">
+                <div>
+                    <p>Não tem uma conta? <a class="link1" href="https://www.instagram.com/accounts/emailsignup/" target="_blank">Cadastre-se</a></p>
+                </div>    
+            </div>
+
+            <div class="insta-store">
+                <div>
+                    <p class="insta-store-texto">Obtenha o aplicativo.</p>
+                </div>
+                <div class="insta-store-logos">
+                    <div>
+                        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank">
+                            <img class="apple-logo" src="./image/app-store-bottom.png" alt="Logo app store">                        
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank">
+                            <img class="apple-logo" src="./image/google-play-bottom.png" alt="Logo app store">                        
+                        </a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="rodape1">
+            <a class="a1" href="https://about.facebook.com/meta">Meta</a>            
+            <a class="a2" href="https://about.instagram.com/">Sobre</a>
+            <a class="a3" href="https://about.instagram.com/blog/">Blog</a>
+            <a class="a4" href="https://www.instagram.com/about/jobs/">Carreiras</a>
+            <a class="a5" href="https://help.instagram.com/">Ajuda</a>
+            <a class="a6" href="https://developers.facebook.com/docs/instagram">API</a>
+            <a class="a7" href="https://www.instagram.com/legal/privacy/">Privacidade</a>
+            <a class="a8" href="https://www.instagram.com/legal/terms/">Termos</a>
+            <a class="a9" href="https://www.instagram.com/directory/profiles/">Principais contas</a>
+            <a class="a10" href="https://www.instagram.com/directory/hashtags/">Hashtags</a>
+            <a class="a11" href="https://www.instagram.com/explore/locations/">Localizações</a>
+            <a class="a12" href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a class="a13" href="https://www.facebook.com/help/instagram/261704639352628">Carregamento de contatos e não usuários</a>
+        </div>
+        <div class="rodape2">
+            <p class="p1">Português (Brasil)</p>
+            <p class="p2">&copy; 2022 Instagram from Meta</p>
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        //
+        //FUNÇÃO PARA AUTENTICAÇÃO DE USUARIOS NO FORMULARIO
+        //
+
+        var user = "limajlr";
+        var pass = 2211;
+        function confirmaLogin(){
+            var login = document.getElementById('insta-user').value;
+            var senha = document.getElementById('insta-password').value;
+            if (login == user && senha == pass ) {
+                alert('Login Realizado com sucesso');
+            }
+            else {
+                alert('Login invalido, tente novamente');
+            }
+        }
+
+        //
+        //FUNÇÃO PARA ATIVAR BOTÃO APÓS DIGITAR DADOS NO FORMULARIO
+        //
+
+        function checkInputs(inputs) {
+        var digitado = true;
+            inputs.forEach(function(input) {
+                if(input.value === "") {
+                    digitado = false;
+                }
+            });
+        return digitado;
+        }
+        var inputs = document.querySelectorAll("input");
+        var button = document.querySelector("button");
+            inputs.forEach(function(input) {
+            input.addEventListener("keyup", function() {
+                if(checkInputs(inputs)) {
+                     button.disabled = false;
+                } else {
+        button.disabled = true;
+        }
+        });
+        });
+    </script>
+
+</body>
+</html>
