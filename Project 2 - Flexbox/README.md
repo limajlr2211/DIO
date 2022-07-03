@@ -1,4 +1,4 @@
-# FLEXBOX PROJECT - JUAN RIBEIRO
+# Project 2 - Flexbox
 
 
 

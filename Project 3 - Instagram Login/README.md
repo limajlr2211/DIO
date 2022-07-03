@@ -1,4 +1,4 @@
-# INSTAGRAM LOGIN PROJECT
+# Project 3 - Instagram Login
 
 
 
