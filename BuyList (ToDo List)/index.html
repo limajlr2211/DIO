@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>NYC TRAVEL - BUY LIST</title>
+</head>
+<body>
+
+    <h1>NYC TRAVEL - BUY LIST</h1>
+    
+    <form class="buy-list">
+      <input type="text" id="itens" placeholder="Digite o item da lista">
+      <input type="text" id="valores" placeholder="Insira o valor do item">
+      <button id="botao" type="button" onclick="armazenar()" disabled>Cadastrar Item</button>
+    </form>
+
+    <div>
+      <table id="tabela">
+       <tr class="tabela1">
+          <th>ITEM</th>
+          <th>VALOR (US$)</th>
+          <th></th> 
+        </tr>
+      </table>
+    </div>
+
+    <button id="bot-excluir-linha">Excluir Linha</button>
+
+<script src="./assets/scripts/scripts.js"></script>    
+</body>
+</html>
