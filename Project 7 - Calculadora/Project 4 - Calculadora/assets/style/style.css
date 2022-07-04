@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(48, 190, 226);
+
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+
+}
+#bot{
+    display: flex;
+    justify-content: center;   
+   
+}
+#bot-inicio{    
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(54, 69, 138);
+    font-weight: bold;
+    width: 200px;
+    height: 25px;   
+}
