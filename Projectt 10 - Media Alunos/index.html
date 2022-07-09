@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Alunos Aprovados</title>
+</head>
+<body>
+
+    <div>
+
+        <div>
+            <h1>SISTEMA DE MÉDIA FINAL 1.0</h1>
+        </div>
+
+    </div>
+        
+    <div id="dados">
+
+        <div>
+            <input id="aluno" type="text" onfocus="this.value=''" placeholder="INSIRA O NOME DO ALUNO">
+            <input id="media" type="text" onfocus="this.value=''" placeholder="INSIRA A MÉDIA FINAL DO ALUNO">
+        </div>
+        <div>
+            <button id="btGrava" disabled>GRAVAR MÉDIA</button>
+        </div>
+    
+    </div> 
+
+    <div>
+    
+        <div>
+
+            <table id="alunoApr">
+                <tr>
+                    <th>ALUNOS APROVADOS</th>
+                    <th>MÉDIA FINAL</th>
+                </tr>
+            </table>
+
+            <div>
+                <button id="btRemoveApr">REMOVE ENTRADA</button>
+            </div>
+
+        </div>
+
+        <div>
+
+            <table id="alunoRep">
+                <tr>
+                    <th>ALUNOS REPROVADOS</th>
+                    <th>MÉDIA FINAL</th>
+                </tr>
+            </table>
+
+            <div>
+                <button id="btRemoveRep">REMOVE ENTRADA</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <p id="m"></p>
+
+    <script src="./assets/scripts/script.mjs"></script>    
+</body>
+</html>

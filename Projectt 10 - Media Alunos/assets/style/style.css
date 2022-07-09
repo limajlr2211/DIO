@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+#dados{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#aluno, #media{    
+    margin: 5px;
+    border: 2px solid rgb(14, 100, 153);
+    height: 30px;
+    width: 280px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+#btGrava{
+    margin-top: 30px;
+    margin-bottom: 100px;    
+    border: 2px solid rgb(25, 176, 227);
+    background-color: rgb(14, 100, 153);
+    color: lightblue;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 30px;
+    width: 180px;
+
+}
+#btGrava:disabled{
+    border: 2px solid rgb(218, 215, 215);
+    background-color: rgb(218, 215, 215);
+    color: rgb(189, 185, 185);
+    font-weight: bold;
+
+}
+#alunoApr, #alunoRep{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+#alunoApr td, #alunoRep td{
+    font-weight: bold;
+}
+#alunoApr td, #alunoApr th, #alunoRep td, #alunoRep th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+#alunoApr tr:nth-child(even), #alunoRep tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}  
+#alunoApr tr:hover, #alunoRep tr:hover{
+    background-color: #ddd;
+
+}  
+#alunoApr th, #alunoRep th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2a8aa2;
+    color: white;
+
+}
